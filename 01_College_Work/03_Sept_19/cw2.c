@@ -1,3 +1,14 @@
+// Write a C program which takes name, basic, daper (i.e., percentage of DA), bonper (i.e, percentage of bonus) and loandet (i.e, loan amount to be debited) for an employee.
+// Calculate the salary using the following relation :
+// -> salary = basic + (basic * daper / 100) + (basic * bonper / 100) - loandet;
+// -> Data : {
+//             name : Mark,
+//             basic : 2500,
+//             daper : 55,
+//             bonper : 33.33,
+//             loandet : 250.00
+// }
+
     #include <stdio.h>
     int main () {
         char name[20];
