@@ -10,3 +10,7 @@ int main() {
     printf("\n");
     return 0;
 }
+
+// --- OUTPUT ---
+// 10
+//   0   2   4   6   8 
