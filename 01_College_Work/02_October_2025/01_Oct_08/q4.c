@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int product = 1, n;
+    while(1) {
+        printf("Enter a number to do multiply : ");
+        scanf("%d", &n);
+        
+        product *= n;
+        if(product >= 10000) {
+            printf("Product exceeded 9999, stopping the process.\n");
+            break;
+        }
+        printf("Current Product: %d\n", product);
+    }
+    return 0;
+}
