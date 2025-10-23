@@ -35,3 +35,7 @@ bool isPrime(int n) {
 
 // Enter a number: 7
 // 7 is a prime number.
+
+// Note: use gcc filename.c -o outputflename -lm to execute this.
+// Becuase we are using math library here, it's not included in C's default standard library
+// -lm : 'l' -> link library, 'm' -> math
